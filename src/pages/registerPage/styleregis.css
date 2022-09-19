@@ -1,0 +1,143 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body_style {
+  position: relative;
+  width: 100%;
+  height: 104vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.tgdd.vn//GameApp/-1//5anhem-8-800x450.jpg");
+  /* background-size: cover;
+      background-repeat: no-repeat; */
+}
+
+.body_style .create_Wrapper .form_chat {
+  position: relative;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(174, 169, 169);
+  border-radius: 10px;
+  font-weight: bold;
+}
+.create_Wrapper h2 {
+  margin-bottom: 20px;
+}
+.body_style .create_Wrapper {
+  position: relative;
+  width: 400px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 7px 9px whitesmoke;
+  border-radius: 10px;
+}
+.body_style img {
+  width: 200px;
+  margin: 20px;
+}
+
+.body_style .form_chat .chat_create_account p {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.body_style
+  .form_chat
+  .chat_create_account
+  .create_firstname
+  .firstname_create {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+
+.body_style .form_chat .chat_create_account .create_latstname .lastname_create {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+.body_style .form_chat .chat_create_account .create_email .email_create {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+
+.body_style .form_chat .chat_create_account .create_password .password_create {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+.body_style
+  .form_chat
+  .chat_create_account
+  .password_confirm
+  .password_complete {
+  width: 230px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+.body_style .form_chat .btn_create .btn {
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(155, 153, 153);
+  background-color: rgb(147, 8, 8);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.body_style .create_Wrapper .create_question {
+  width: 295px;
+  height: 45px;
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(155, 153, 153);
+}
+.body_style .create_Wrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+#server_err_message {
+  margin: 20px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#server_success_message {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

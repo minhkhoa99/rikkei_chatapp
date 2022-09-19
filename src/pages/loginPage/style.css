@@ -1,0 +1,101 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.tgdd.vn//GameApp/-1//5anhem-8-800x450.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background_login .login_Wrapper .form_chat {
+  position: relative;
+  width: 300px;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(174, 169, 169);
+  border-radius: 10px;
+  font-weight: bold;
+}
+section .login_Wrapper {
+  position: relative;
+  height: 79vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 7px 9px whitesmoke;
+  border-radius: 10px;
+}
+.background_login img {
+  width: 200px;
+  height: 50px;
+  margin: 50px;
+}
+
+.form_chat .chat_login p {
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+.form_chat .chat_login .email_login {
+  width: 220px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+.form_chat .chat_login .password_login {
+  width: 220px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid rgb(155, 153, 153);
+  outline: none;
+  padding: 10px;
+}
+.form_chat .chat_login .btn_login .btn {
+  width: 100%;
+  height: 35px;
+  margin-top: 20px;
+  border-radius: 3px;
+  border: 1px solid rgb(155, 153, 153);
+  background-color: rgb(147, 8, 8);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login_Wrapper .create_question {
+  width: 295px;
+  height: 45px;
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(155, 153, 153);
+}
+.login_Wrapper .forgotpass {
+  position: absolute;
+  top: 72vh;
+  margin-left: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.login_Wrapper a {
+  text-decoration: none;
+  color: black;
+}
